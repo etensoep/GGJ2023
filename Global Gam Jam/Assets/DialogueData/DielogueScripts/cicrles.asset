@@ -10,15 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dd43a2e415522345917b0f95aa3411a, type: 3}
-  m_Name: New Dialog Object
+  m_Name: cicrles
   m_EditorClassIdentifier: 
   dialogue:
-  - "first dialog objectr \n\n"
-  - 'this is the second one
-
-    aujbudbaud'
-  - 'and this is the thitd one
-
-    and a new line
-
-'
+  - and this one looks more circular...
+  - 'oh, they are smaller '
+  - and they can swim!

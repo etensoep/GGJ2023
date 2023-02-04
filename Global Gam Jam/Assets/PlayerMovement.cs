@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{
+{   
+
+    [SerializeField] private DialogUI dialogUI;
+
+    public DialogUI DialogUI => dialogUI;
+    public IInteractible Interactible {get; set; }
+
     public float speed;
     private float Move;
     public Sprite spriteA;
@@ -29,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //if (dialogUI.isOpen) return;
         Move = Input.GetAxis("Horizontal");
         
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
@@ -59,8 +66,11 @@ public class PlayerMovement : MonoBehaviour
 
                }
             GetComponent<SpriteRenderer>().sprite = spriteB;
-
         }
+        if(Input.GetKeyDown(KeyCode.E)){
+            Interactible?.Interact(this);
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D other) 

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dd43a2e415522345917b0f95aa3411a, type: 3}
-  m_Name: monolog
+  m_Name: squares
   m_EditorClassIdentifier: 
   dialogue:
-  - "Who am I? \n \n"
-  - 'Why am I shapeless? I have to be something...
+  - "first dialog objectr \n\n"
+  - 'this is the second one
 
-    RIght?
+    aujbudbaud'
+  - 'and this is the thitd one
+
+    and a new line
 
 '
-  - Where could I find who I am?
-  - I need to go on a journey...to find my roots...to discover where i come from...
-  - To the roots then!
