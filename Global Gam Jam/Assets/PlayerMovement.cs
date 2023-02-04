@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public int transformation;
     public bool isJumping;
     public int treshold;
+    public float startspeed;
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,9 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         transformation = 0;
         speed = 5;
+        startspeed = speed;
         treshold = 20;
+        jump = 350;
     }
 
 
@@ -27,11 +30,13 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move = Input.GetAxis("Horizontal");
-
+        
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
+
         while( speed >= treshold ){
             speed = speed - speed * 0.125f;
         }
+
         if(Input.GetButtonDown("Jump") && isJumping == false)
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
@@ -41,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
             if(GetComponent<SpriteRenderer>().sprite != spriteA){
                 transformation = transformation + 1;
                 speed = 0.9f*speed;
+                jump = 250;
             }
             GetComponent<SpriteRenderer>().sprite = spriteA;
 
@@ -49,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
             if(GetComponent<SpriteRenderer>().sprite != spriteB){
                 transformation = transformation + 1;
                 speed = 1.9f*speed;
+                jump = 450;
 
                }
             GetComponent<SpriteRenderer>().sprite = spriteB;
