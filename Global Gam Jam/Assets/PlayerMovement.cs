@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         transformation = 0;
-        speed = 5;
+        speed = 13;
         startspeed = speed;
         treshold = 20;
         jump = 350;
@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.L)){
             if(GetComponent<SpriteRenderer>().sprite != spriteA){
                 transformation = transformation + 1;
-                speed = 0.9f*speed;
+                speed = 17;
                 jump = 250;
             }
             GetComponent<SpriteRenderer>().sprite = spriteA;
@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.K)){
             if(GetComponent<SpriteRenderer>().sprite != spriteB){
                 transformation = transformation + 1;
-                speed = 1.9f*speed;
+                speed = 9;
                 jump = 450;
 
                }
