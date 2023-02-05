@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5905446, g: 0.396132, b: 0.6245467, a: 1}
+  m_IndirectSpecularColor: {r: 0.5905447, g: 0.396132, b: 0.6245573, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -447,8 +447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &120323300
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -573,8 +573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &139191546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 731644601}
+  startPoint: {fileID: 1173057054}
   Player: {fileID: 600845068}
 --- !u!212 &173463073
 SpriteRenderer:
@@ -1413,8 +1413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &429650628
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6266,6 +6266,7 @@ MonoBehaviour:
   jump: 300
   transformation: 0
   isJumping: 0
+  inWater: 0
   treshold: 0
   startspeed: 0
 --- !u!61 &600845070
@@ -6538,8 +6539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &638600480
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6664,8 +6665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &655229722
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6790,8 +6791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &690956376
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7040,8 +7041,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &743925834
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7250,8 +7251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &799526085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8417,8 +8418,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &1390125983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8946,8 +8947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &1516923551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9459,8 +9460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &1901196415
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9669,8 +9670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &2008277551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9795,8 +9796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27abe168a6747149b485b03a5418773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1173057054}
+  Player: {fileID: 600845068}
 --- !u!212 &2013311791
 SpriteRenderer:
   m_ObjectHideFlags: 0
