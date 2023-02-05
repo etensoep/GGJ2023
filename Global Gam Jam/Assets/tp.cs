@@ -30,7 +30,7 @@ public class tp : MonoBehaviour
 
               case "brown_tp":
               to = "yellow_tp";
-              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x - 10,
+              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 10,
                GameObject.Find(to).transform.position.y, GameObject.Find(to).transform.position.z);
                break;
 
@@ -80,13 +80,13 @@ public class tp : MonoBehaviour
 
               case "white_tp":
                to = "light_yellow_tp";
-               other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 10,
+               other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x - 10,
                GameObject.Find(to).transform.position.y, GameObject.Find(to).transform.position.z);
                break;
 
             case "yellow_tp":
             to = "red_tp";
-              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x - 10,
+              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 10,
                GameObject.Find(to).transform.position.y, GameObject.Find(to).transform.position.z);
                break;
             
