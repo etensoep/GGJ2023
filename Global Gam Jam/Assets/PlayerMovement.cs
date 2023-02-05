@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {   
+
+    BoxCollider2D m_Collider;
+    float m_ScaleX, m_ScaleY, m_ScaleZ;
 
     [SerializeField] private DialogUI dialogUI;
 
@@ -21,15 +25,24 @@ public class PlayerMovement : MonoBehaviour
     public int treshold;
     public float startspeed;
     private Rigidbody2D rb;
+    public float desiredScale;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        m_Collider = GetComponent<BoxCollider2D>();
+
+        m_ScaleX = 1.0f;
+        m_ScaleY = 1.0f;
+        m_ScaleZ = 1.0f;
+      
         transformation = 0;
         speed = 13;
         startspeed = speed;
         treshold = 20;
         jump = 350;
+
+        m_Collider.size = new Vector3(m_ScaleX, m_ScaleY, m_ScaleZ);
     }
 
 
@@ -38,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //if (dialogUI.isOpen) return;
         Move = Input.GetAxis("Horizontal");
-        
+      
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
 
         while( speed >= treshold ){
@@ -56,6 +69,9 @@ public class PlayerMovement : MonoBehaviour
                 speed = 17;
                 jump = 250;
                 gameObject.layer=0;
+                m_Collider.size = new Vector3(0.6f*m_ScaleX, 0.6f*m_ScaleY, m_ScaleZ);
+                desiredScale =0.6f;
+                transform.localScale = new Vector3( desiredScale, desiredScale, desiredScale);
             }
             GetComponent<SpriteRenderer>().sprite = spriteA;
 
@@ -66,6 +82,9 @@ public class PlayerMovement : MonoBehaviour
                 speed = 9;
                 jump = 450;
                 gameObject.layer=3;
+                m_Collider.size = new Vector3(m_ScaleX, m_ScaleY, m_ScaleZ);
+                desiredScale =(1f);
+                transform.localScale = new Vector3( desiredScale, desiredScale, desiredScale);
                }
             GetComponent<SpriteRenderer>().sprite = spriteB;
         }
