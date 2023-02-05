@@ -26,7 +26,7 @@ public class beginning_cutscene : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         transformation = 0;
-        speed = 7;
+        speed = 9;
         startspeed = speed;
         treshold = 20;
         jump = 350;
