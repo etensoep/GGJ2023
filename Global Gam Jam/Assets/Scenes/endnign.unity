@@ -326,9 +326,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Roots.... Have you found them? They are important, that''s true, but...
-    Remember, you can always grow BEYOND them! They are a part of you, but do not
-    define you! Just be you and it will be perfect! '
+  m_text: "Roots... \nThey are important, true, but... \nRemember, you can always
+    grow beyond them.\nThey are a part of you, but they do not define you. \nJust
+    be yourself- and you' ll be perfect!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
