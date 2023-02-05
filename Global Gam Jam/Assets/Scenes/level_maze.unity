@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.47886407, g: 0.80019325, b: 0.8993807, a: 1}
+  m_IndirectSpecularColor: {r: 0.47884, g: 0.8001845, b: 0.90072787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1871,6 +1871,7 @@ MonoBehaviour:
   inWater: 0
   treshold: 0
   startspeed: 0
+  desiredScale: 0
 --- !u!61 &1606469102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1997,7 +1998,7 @@ GameObject:
   - component: {fileID: 1790625873}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

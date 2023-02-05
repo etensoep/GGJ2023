@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/square-village.unity
     guid: 4c2f16e41e044e849910142471221ea9
   - enabled: 1
+    path: Assets/Scenes/circle_village.unity
+    guid: 636ea48b91021fc4daac6817719edf04
+  - enabled: 1
     path: Assets/Scenes/Underwater.unity
     guid: 6b49aca1f80243d4699f89a0839a68c7
   - enabled: 0
