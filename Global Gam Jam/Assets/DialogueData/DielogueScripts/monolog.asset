@@ -13,12 +13,30 @@ MonoBehaviour:
   m_Name: monolog
   m_EditorClassIdentifier: 
   dialogue:
-  - "Who am I? \n \n ...press E to continue..\n"
-  - 'Why am I shapeless? I have to be something...
+  - '...Who am I?
 
-    RIght?
+
+    [Press E to advance dialogue]'
+  - '...I used to have a shape.
+
+    ...I used to have an identity.'
+  - 'I feel like I have lost my existance.
+
+    It''s funny, really.'
+  - The more I grew, the less I felt like I even had a shape.
+  - '''Square'' or ''circle''... '
+  - I wonder what it would be like to fit in neatly with a distinction like that.
+  - ...Well, it's not like I can keep living like this, can I?
+  - At least that's what I've been telling myself, so...
+  - 'I''ll go on a journey. '
+  - "I'll try to understand who I am. \nWhere my origin is, or where my path will
+    lead..."
+  - What is at the root of who I am?
+  - I don't yet know.
+  - ...
+  - 'It will be a long day, but once it ends...
 
 '
-  - Where could I find who I am?
-  - I need to go on a journey...to find my roots...to discover where i come from...
-  - To the roots then!
+  - 'I''ll know.
+
+    I''ll know what is at the ''root'' of who I am.'
