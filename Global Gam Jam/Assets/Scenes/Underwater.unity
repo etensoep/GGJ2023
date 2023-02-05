@@ -69574,6 +69574,7 @@ MonoBehaviour:
   inWater: 0
   treshold: 0
   startspeed: 0
+  desiredScale: 0
 --- !u!50 &1762875295
 Rigidbody2D:
   serializedVersion: 4
@@ -70120,7 +70121,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 10
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0

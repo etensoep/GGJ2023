@@ -6019,7 +6019,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 10
+  m_Density: 50
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
