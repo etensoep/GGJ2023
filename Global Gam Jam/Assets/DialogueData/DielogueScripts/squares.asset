@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: squares
   m_EditorClassIdentifier: 
   dialogue:
-  - "first dialog objectr \n\n"
-  - 'this is the second one
+  - 'Squares, huh?
 
-    aujbudbaud'
-  - 'and this is the thitd one
-
-    and a new line
-
-'
+    ..."It''s hip to be square"? Why did I just think that?'
+  - They're big and can jump high. Sounds like it'd be nice to be a square. Hip,
+    even.
+  - They sink in water, though. Huh. I feel like a [L] button would be able to turn
+    even me into a square, whatever that is...

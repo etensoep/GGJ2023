@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: cicrles
   m_EditorClassIdentifier: 
   dialogue:
-  - and this one looks more circular...
-  - 'oh, they are smaller '
-  - and they can swim!
+  - '...Circles, huh?
+
+    They seem happy. '
+  - They may be smaller than the squares, but they're sort of cute. Although I don't
+    think they could jump as far as them...
+  - They can swim too, huh? I bet they're having fun with that...
+  - If I imagine a [L] button in my head, maybe I can try being a circle...
