@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 809318278}
   - component: {fileID: 809318280}
   m_Layer: 0
-  m_Name: 'purple_tp '
+  m_Name: purple_tp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1272,6 +1272,7 @@ GameObject:
   - component: {fileID: 872455018}
   - component: {fileID: 872455017}
   - component: {fileID: 872455019}
+  - component: {fileID: 872455020}
   m_Layer: 0
   m_Name: emerald_tp
   m_TagString: Untagged
@@ -1362,6 +1363,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &872455020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872455016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc0153fde30b6047b8738cad6f3317b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &895494404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,6 +1500,7 @@ GameObject:
   - component: {fileID: 929463281}
   - component: {fileID: 929463280}
   - component: {fileID: 929463282}
+  - component: {fileID: 929463283}
   m_Layer: 0
   m_Name: yellow_tp
   m_TagString: Untagged
@@ -1577,6 +1591,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &929463283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929463279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc0153fde30b6047b8738cad6f3317b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &936681282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,7 +1809,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2722,7 +2748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606469100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8, y: -218, z: 0}
+  m_LocalPosition: {x: -93.2, y: -141.3, z: 0}
   m_LocalScale: {x: 1.327, y: 1.327, z: 1.327}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3294,8 +3320,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2017736031}
   - component: {fileID: 2017736030}
-  - component: {fileID: 2017736032}
   - component: {fileID: 2017736033}
+  - component: {fileID: 2017736032}
   m_Layer: 0
   m_Name: black_tp
   m_TagString: Untagged
@@ -3392,7 +3418,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3411,7 +3437,7 @@ GameObject:
   - component: {fileID: 2053816952}
   - component: {fileID: 2053816953}
   m_Layer: 0
-  m_Name: 'green_tp '
+  m_Name: green_tp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

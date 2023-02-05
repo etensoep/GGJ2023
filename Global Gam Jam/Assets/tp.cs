@@ -36,7 +36,7 @@ public class tp : MonoBehaviour
 
               case "cyan_tp":
               to = "emerald_tp";
-               other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 10,
+               other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 5,
                GameObject.Find(to).transform.position.y, GameObject.Find(to).transform.position.z);
                break;
 
@@ -48,7 +48,7 @@ public class tp : MonoBehaviour
               
               case "green_tp":
               to = "lilac_tp";
-              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 10,
+              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x - 5,
                GameObject.Find(to).transform.position.y, GameObject.Find(to).transform.position.z);
                break;
 
@@ -86,7 +86,7 @@ public class tp : MonoBehaviour
 
             case "yellow_tp":
             to = "red_tp";
-              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x + 10,
+              other.transform.position = new Vector3 (GameObject.Find(to).transform.position.x - 10,
                GameObject.Find(to).transform.position.y, GameObject.Find(to).transform.position.z);
                break;
             
