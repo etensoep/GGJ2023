@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44600135, g: 0.624972, b: 0.72263163, a: 1}
+  m_IndirectSpecularColor: {r: 0.44600552, g: 0.62494797, b: 0.7225996, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -181,7 +181,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -312,7 +312,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -3906,7 +3906,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -4163,7 +4163,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -4294,7 +4294,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -4551,7 +4551,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -4808,7 +4808,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -5065,7 +5065,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -5322,7 +5322,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -5453,7 +5453,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -5935,7 +5935,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -6124,7 +6124,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -6381,7 +6381,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -6795,7 +6795,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -6926,7 +6926,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -7309,7 +7309,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -7440,7 +7440,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -7697,7 +7697,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -8078,7 +8078,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -8380,7 +8380,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0

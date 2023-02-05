@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5905447, g: 0.396132, b: 0.6245573, a: 1}
+  m_IndirectSpecularColor: {r: 0.5905446, g: 0.396132, b: 0.6245467, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7083,7 +7083,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -7524,7 +7524,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -8394,7 +8394,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
@@ -8686,7 +8686,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 55
   m_SurfaceLevel: 0
-  m_Density: 4
+  m_Density: 100
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
