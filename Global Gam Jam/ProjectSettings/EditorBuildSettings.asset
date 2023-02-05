@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/square-village.unity
+    guid: 4c2f16e41e044e849910142471221ea9
+  - enabled: 1
+    path: Assets/Scenes/circle_village.unity
+    guid: 6b49aca1f80243d4699f89a0839a68c7
+  - enabled: 0
+    path: Assets/Scenes/level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/level2.unity
+    guid: 923b727501b46bd4da4ddc4b12dc6a8c
   m_configObjects: {}
