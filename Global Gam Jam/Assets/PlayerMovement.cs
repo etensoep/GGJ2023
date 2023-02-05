@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
     public int transformation;
     public bool isJumping;
+    public bool inWater;
     public int treshold;
     public float startspeed;
     private Rigidbody2D rb;
@@ -47,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
                 transformation = transformation + 1;
                 speed = 0.9f*speed;
                 jump = 250;
+                gameObject.layer=0;
             }
             GetComponent<SpriteRenderer>().sprite = spriteA;
 
@@ -56,17 +58,20 @@ public class PlayerMovement : MonoBehaviour
                 transformation = transformation + 1;
                 speed = 1.9f*speed;
                 jump = 450;
-
+                gameObject.layer=3;
                }
             GetComponent<SpriteRenderer>().sprite = spriteB;
-
         }
     }
-
+    
     private void OnCollisionEnter2D(Collision2D other) 
     {
         if(other.gameObject.CompareTag("Ground")) {
             isJumping = false;
+        }
+
+         if(other.gameObject.CompareTag("Water")) {
+            inWater = true;
         }
     }
 
@@ -76,5 +81,9 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
         }
+        if(other.gameObject.CompareTag("Water")) {
+            inWater = false;
+        }
     }
+
 }
