@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 77715b8b6b248994891d3ccad1ad330b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44600135, g: 0.624972, b: 0.72263163, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -196,6 +196,7 @@ MonoBehaviour:
   inWater: 0
   treshold: 0
   startspeed: 0
+  desiredScale: 0
 --- !u!61 &429845287
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5082,6 +5083,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -95, y: 40, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 56
+      m_TileSpriteIndex: 44
+      m_TileMatrixIndex: 4
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -91, y: 40, z: 0}
     second:
       serializedVersion: 2
@@ -5276,7 +5287,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 79965220ea800db4283d574ed3d7952f, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0f4f05b5ebb21534085c50c7f0ab7c49, type: 2}
-  - m_RefCount: 140
+  - m_RefCount: 141
     m_Data: {fileID: 11400000, guid: 5717547969be40046bc19ac632b70592, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 64614190796c95e4baa1f6713ee03765, type: 2}
@@ -5377,7 +5388,7 @@ Tilemap:
     m_Data: {fileID: 7375479933205894985, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -3436862730290116494, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
-  - m_RefCount: 140
+  - m_RefCount: 141
     m_Data: {fileID: 2367332489764980990, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6333894117215390091, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
@@ -5486,7 +5497,7 @@ Tilemap:
       e31: 7.34684e-40
       e32: 3.2e-43
       e33: 1
-  - m_RefCount: 438
+  - m_RefCount: 439
     m_Data:
       e00: 1
       e01: 0
@@ -5505,7 +5516,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 438
+  - m_RefCount: 439
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
